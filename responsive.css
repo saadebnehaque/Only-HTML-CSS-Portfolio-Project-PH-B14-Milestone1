@@ -68,4 +68,28 @@
             width: 580px;
         }
     }
+
+    #about {
+
+        padding: 130px 155px;
+        margin: 130px auto;
+        border-radius: 10px;
+
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    #about>p {
+        margin: 30px 0;
+    }
+
+    .detailsCard {
+        font-size: 20px;
+    }
+
+    .detailsCard p {
+        font-size: 20px;
+    }
 }
