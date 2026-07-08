@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./dummy.css">
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -13,12 +17,12 @@
 
 <body>
     <header>
-        <img class="heroBG1" src="./images/developer.png" alt="developer">
+       <h1 class="heroBG1">Developer</h1>
         <nav>
             <h1 class="logo">Ma<span style="color: #FD6E0A;">r</span>y</h1>
             <ul class="navMenu">
-                <li>Portfolio</li>
-                <li>Blog</li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#blog" style="text-decoration: none;">Blog</a></li>
             </ul>
             <button class="btn">Hire Me</button>
         </nav>
@@ -38,6 +42,15 @@
         </div>
         <img class="heroBG2" src="./images/header_bg.png" alt="">
     </header>
+    <section id="portfolio">
+        <h2>My Portfolio</h2>
+        <p>Check out some of my recent work!</p>
+    </section>
+
+    <section id="blog">
+        <h2>My Blog</h2>
+        <p>Read my latest articles and insights!</p>
+    </section>
 </body>
 
 </html>

@@ -7,14 +7,22 @@
     font-family: "Open Sans", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+    scrollbar-gutter: stable;
+}
+
 .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #FD6E0A;
     color: white;
     border: 1px solid transparent;
     border-radius: 5px;
-    padding: 18px 35px;
+    padding: 1.125vw 2.1875vw;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.25vw;
     transition: all 300ms ease-in-out;
     cursor: pointer;
 
@@ -31,8 +39,8 @@
 
 p {
     color: #757575;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1.125vw;
+    line-height: 1.875vw;
 }
 
 body {
@@ -46,29 +54,36 @@ header {
 }
 
 .heroBG1 {
+    color: rgba(24, 24, 24, 0.151);
     position: absolute;
-    top: 40px;
-    left: 25px;
+    top: 17.875vw;
+    left: -17.25vw;
+    font-size: 5.25vw;
+    letter-spacing: 0.33em;
+    rotate: 270deg;
 }
 
 .heroBG2 {
     position: absolute;
     bottom: 0;
     right: 0;
+    width: 50vw;
 }
 
 nav {
+
     width: 80%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 50px;
+    padding-top: 3.125vw;
 }
 
 .logo {
     cursor: pointer;
     transition: all 300ms ease-in-out;
+    font-size: 2.8125vw;
 
     &:active {
         scale: 0.95;
@@ -78,14 +93,16 @@ nav {
 nav>ul {
 
     list-style: none;
-    font-size: 20px;
-    color: #474747;
-    display: flex;
-    gap: 65px;
 
-    li {
+    display: flex;
+    gap: 4.0625vw;
+
+    a {
         transition: all 300ms ease-in-out;
         cursor: pointer;
+        text-decoration: none;
+        font-size: 1.25vw;
+        color: #474747;
 
         &:hover {
             color: #FD6E0A;
@@ -103,36 +120,35 @@ nav>ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 165px;
-    margin-top: 50px;
+    gap: 10.3125vw;
+    margin-top: 3.125vw;
 
     h3 {
         color: #474747;
-        font-size: 45px;
+        font-size: 2.8125vw;
         font-weight: 600;
     }
 
     h1 {
         color: #181818;
-        font-size: 85px;
+        font-size: 5.3125vw;
         font-weight: bold;
     }
 
     p {
-        margin: 20px 0 30px;
+        margin: 1.25vw 0 1.875vw;
     }
 
     .heroBtnContainer {
         display: flex;
         align-items: center;
-        gap: 30px;
+        gap: 1.875vw;
     }
 
     .heroImg {
         z-index: 2;
         position: relative;
-        right: -110px;
-
-
+        right: -6.875vw;
+        width: 36.25vw;
     }
 }
