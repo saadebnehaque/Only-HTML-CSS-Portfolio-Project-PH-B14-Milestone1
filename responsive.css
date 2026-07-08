@@ -1,0 +1,71 @@
+@media (min-width:1920px) {
+
+
+    nav {
+        padding-top: 50px;
+    }
+
+    .btn {
+        border-radius: 5px;
+        font-size: 20px;
+        padding: 18px 35px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .heroBG1 {
+        top: 286px;
+        left: -276px;
+        font-size: 84px;
+    }
+
+    .heroBG2 {
+        width: 800px;
+    }
+
+    .logo {
+        font-size: 45px;
+
+    }
+
+    nav>ul {
+        gap: 65px;
+
+        a {
+            font-size: 20px;
+
+        }
+    }
+
+    .hero {
+        gap: 165px;
+        margin-top: 50px;
+
+        h3 {
+            font-size: 45px;
+
+        }
+
+        h1 {
+            font-size: 85px;
+
+        }
+
+        p {
+            margin: 20px 0 30px;
+        }
+
+        .heroBtnContainer {
+            gap: 30px;
+
+        }
+
+        .heroImg {
+            right: -110px;
+            width: 580px;
+        }
+    }
+}

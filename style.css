@@ -12,6 +12,26 @@ html {
     scrollbar-gutter: stable;
 }
 
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #FFF8F3;
+    position: relative;
+}
+
+nav {
+
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3.125vw;
+}
+
 .btn {
     display: flex;
     align-items: center;
@@ -19,7 +39,7 @@ html {
     background-color: #FD6E0A;
     color: white;
     border: 1px solid transparent;
-    border-radius: 5px;
+    border-radius: 0.3125vw;
     padding: 1.125vw 2.1875vw;
     font-weight: bold;
     font-size: 1.25vw;
@@ -43,15 +63,8 @@ p {
     line-height: 1.875vw;
 }
 
-body {
-    max-width: 1920px;
-    margin: 0 auto;
-}
 
-header {
-    background-color: #FFF8F3;
-    position: relative;
-}
+
 
 .heroBG1 {
     color: rgba(24, 24, 24, 0.151);
@@ -70,15 +83,7 @@ header {
     width: 50vw;
 }
 
-nav {
 
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 3.125vw;
-}
 
 .logo {
     cursor: pointer;
