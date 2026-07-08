@@ -208,3 +208,60 @@ h2 {
 strong {
     color: #474747;
 }
+
+#whatIDo {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    gap: 1.25vw;
+    margin-bottom:8.125vw ;
+}
+
+.WIDtop {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.875vw;
+    padding: 0 7.1875vw;
+}
+
+.WIDCardContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5vw;
+
+}
+
+.WIDCard {
+    background-color: white;
+    box-shadow: 0vw 0.1875vw 3.125vw 0px #0000000f;
+    border-radius: 0.3125vw;
+    padding: 1.875vw;
+}
+
+.WIDCardImg {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 0.625vw;
+    margin-bottom: 1.875vw;
+}
+
+.WIDCardImg img {
+    width: 2.5vw;
+}
+
+.cardContent h3 {
+    color: #181818;
+    font-weight: bold;
+    font-size: 1.25vw;
+    margin-bottom: 1.25vw;
+}
+
+.cardContent p {
+    font-size: 1vw;
+    line-height: 1.75vw;
+}
